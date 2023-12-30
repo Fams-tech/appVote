@@ -1,0 +1,46 @@
+
+EXPLICATION(ne fait pas partie du power point)
+Pourquoi tester des logiciels ?
+Les tests de logiciels sont très importants lors de la création de logiciels, car nous devons nous
+assurer que le logiciel est de haute qualité, ce qui nous permettra d'avoir des clients qui nous sont
+fidèles. Des clients qui se sentent à l'aise en utilisant notre produit. C'est pour cette raison que 
+30 % du temps de développement d'un logiciel est consacré aux tests. Il est nécessaire que les clients
+soient satisfaits et il est également important d'avoir des applications de haute qualité afin que
+nous puissions nous assurer que le client utilise uniquement et confortablement nos produits. 
+Les tests permettent également de réduire les coûts de maintenance, car ils augmentent la qualité
+du code. Ainsi, à l'avenir, si nous n'avions pas testé notre code correctement, une erreur aurait 
+pu apparaître et nous aurions alors dû résoudre toute l'erreur, ce qui aurait pris du temps pour 
+le retravailler, alors que si nous l'avions testé plus tôt, nous n'aurions pas eu à dépenser autant 
+d'argent et de temps. Ainsi, les tests de logiciels réduisent le temps et le coût de développement 
+d'un logiciel. Les tests de logiciels permettent également de s'assurer que le code produit est sûr
+et sécurisé.
+
+
+EXPLICATION(ne fait pas partie du power point)
+Les tests manuels se passent d'explications. Dans les tests manuels, le testeur teste lui-même tous
+les cas de test. Il les écrit et les teste ensuite sur le code. En revanche, dans les tests automatiques,
+le testeur écrit simplement des scripts qui sont des tests standardisés exécutés sur l'application.
+Enfin, les méthodes de test sont statiques et dynamiques.  Et les approches de test : approche de 
+test boîte noire, approche de test boîte blanche et approche de test boîte grise. Dans l'approche 
+de la boîte noire, le testeur ne connaît pas la structure interne de l'application qu'il teste. 
+Dans la boîte blanche, le testeur ne connaît pas la structure interne de l'application qu'il teste,
+mais dans la boîte grise, c'est une sorte de mélange, il en connaît un peu mais pas tant que ça, 
+donc un dispositif gris est une application dont la structure interne est connue dans une certaine
+mesure. Les tests se font alors par niveaux. Il y a les tests unitaires dans lesquels chaque module
+est testé séparément. Il y a ensuite les tests d'intégration, qui consistent à tester un ensemble de
+modules lorsqu'ils sont intégrés. Enfin, il y a le test du système, qui consiste à tester l'ensemble 
+du système. Enfin, il y a les tests d'acceptation, qui consistent à vérifier que le système dans son
+ensemble répond aux exigences des clients ou à leurs besoins.
+
+
+EXPLICATION(vulerabilites)
+Par exemple, si un développeur oublie de fermer une base de 
+données SQL ouverte ou si des détails importants comme le nom d'utilisateur et le mot de passe
+ont été écrits directement dans le code.
+
+EXPLICATION(activer les regles)
+Cela signifie que si un développeur ou une équipe a des
+règles standard qu'il veut suivreou des règles spécifiques à différents projets ou spécifiques à 
+un projet particulier qu'il veut appliquer, il peut les créer en tant que profil de qualité dans 
+sonarqube.  Et lorsque le développeur écrira un code à l'avenir, ce profil de qualité sera testé 
+par rapport au code qu'il a écrit. S'il ne respecte pas ces profils de qualité, sonar Qube l'en informera.
